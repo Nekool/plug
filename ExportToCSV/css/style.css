@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+}
+form{
+    width:50%;
+    margin:auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: stretch;
+    align-items: stretch;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #656565;
+}
+label{
+    width: 50%;
+    margin: auto;
+}
+input[type="checkbox"]{
+    width: 50px;
+}
+input[type="submit"]{
+    margin: 1px auto;
+    padding: 3px 5px;
+    width: 50%;
+}
+h1 {
+    font-size: 3em;
+    margin: auto;
+    width: 75%;
+    display: block;
+    text-align: center;
+}
+#selectAll ,#selectNone{
+    width:25%;
+}
